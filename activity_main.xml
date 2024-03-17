@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="466dp"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="969dp"
+        android:layout_height="965dp"
+        app:srcCompat="@drawable/aaa" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        app:srcCompat="@drawable/pink_and_blue_retro_modern_y2k_streetwear_logo_removebg_preview__2_" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/custom_edittext"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/LoginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="_"
+                android:drawablePadding="8dp"
+                android:hint="Username"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:textColor="@color/green"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="_"
+                android:drawablePadding="6dp"
+                android:hint="Password"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:textColor="@color/green"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <Button
+                android:id="@id/LoginText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="30dp"
+                android:backgroundTint="@color/blue"
+                android:text="Login"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Not yet registered? Signup Now!"
+                android:textAlignment="center"
+                android:id="@id/+signupText"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp" />
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
